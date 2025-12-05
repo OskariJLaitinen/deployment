@@ -1,5 +1,5 @@
-import upperFirst from '../src/upperFirst.js';
-import words from '../src/words.js';
+const upperFirst = require('../src/upperFirst.js');
+const words = require('../src/words.js');
 
 describe('string utilities', () => {
   test('upperFirst capitalizes first letter', () => {

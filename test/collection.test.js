@@ -1,5 +1,6 @@
-import map from '../src/map.js';
-import reduce from '../src/reduce.js';
+const map = require('../src/map.js');
+const reduce = require('../src/reduce.js');
+
 
 describe('collections', () => {
   test('map maps over arrays', () => {

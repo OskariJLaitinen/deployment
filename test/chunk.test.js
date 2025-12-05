@@ -1,4 +1,4 @@
-import chunk from '../src/chunk.js';
+const chunk = require('../src/chunk.js');
 
 describe('chunk', () => {
   test('splits array into chunks of given size', () => {

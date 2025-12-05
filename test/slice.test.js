@@ -1,4 +1,5 @@
-import slice from '../src/slice.js';
+const slice = require('../src/slice.js');
+
 
 describe('slice', () => {
   test('slices arrays', () => {

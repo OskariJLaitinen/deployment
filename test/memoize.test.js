@@ -1,4 +1,4 @@
-import memoize from '../src/memoize.js';
+const memoize = require('../src/memoize.js');
 
 describe('memoize', () => {
   test('returns cached result and only calls underlying function once for same args', () => {

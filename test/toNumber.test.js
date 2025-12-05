@@ -1,4 +1,4 @@
-import toNumber from '../src/toNumber.js';
+const toNumber = require('../src/toNumber.js');
 
 describe('toNumber', () => {
   test('converts string numbers to numbers', () => {

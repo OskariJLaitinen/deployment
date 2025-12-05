@@ -1,4 +1,5 @@
-import clamp from '../src/clamp.js';
+const clamp = require('../src/clamp.js');
+
 
 describe('clamp', () => {
   test('clamps values within bounds', () => {
