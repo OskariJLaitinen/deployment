@@ -35,4 +35,5 @@ function chunk(array, size = 1) {
   return result
 }
 
-export default chunk
+module.exports = chunk;
+
