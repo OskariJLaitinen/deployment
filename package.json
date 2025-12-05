@@ -1,0 +1,30 @@
+{
+  "name": "software-testing-assignment",
+  "version": "1.0.0",
+  "description": "Tests for utility library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --runInBand",
+    "coverage": "nyc --reporter=lcov --reporter=text npm test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "nyc": "^15.1.0",
+    "coveralls": "^3.1.1"
+  },
+  "nyc": {
+    "extension": [".js"],
+    "include": ["src/**/*.js"],
+    "exclude": ["src/.internal/**","test/**","node_modules/**"],
+    "reporter": ["lcov","text"],
+    "all": true
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  }
+}
